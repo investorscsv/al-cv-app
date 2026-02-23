@@ -166,7 +166,8 @@
                     "Wordpress"
                 ]
             }
-        ]
+        ],
+        "subtitle": "Selected roles, impact, and core competencies."
     },
     "projects": {
         "title": "Side project",
@@ -217,44 +218,51 @@
                 "institutionId": 1,
                 "course": "Bachelor of Marketing",
                 "endDate": "Sep 2007 - May - 2014",
-                "link": "Website"
+                "link": "Website",
+                "description": "Completed Bachelor of Marketing at Sep 2007 - May - 2014."
             },
             {
                 "id": "udemy",
                 "institutionId": 2,
                 "course": "SEO course by MOZ",
                 "endDate": "Nov 20, 2017",
-                "link": "Certificate"
+                "link": "Certificate",
+                "description": "Completed SEO course by MOZ at Nov 20, 2017."
             },
             {
                 "id": "ei",
                 "institutionId": 3,
                 "course": "SEO online course",
                 "endDate": "Nov 16, 2017",
-                "link": "Certificate"
+                "link": "Certificate",
+                "description": "Completed SEO online course at Nov 16, 2017."
             },
             {
                 "id": "semrush",
                 "institutionId": 4,
                 "course": "Backlink Management",
                 "endDate": "Apr 8, 2023",
-                "link": "Certificate"
+                "link": "Certificate",
+                "description": "Completed Backlink Management at Apr 8, 2023."
             },
             {
                 "id": "google",
                 "institutionId": 5,
                 "course": "Google Ads Search",
                 "endDate": "Jan 20, 2026",
-                "link": "Certificate"
+                "link": "Certificate",
+                "description": "Completed Google Ads Search at Jan 20, 2026."
             },
             {
                 "id": "efset",
                 "institutionId": 6,
                 "course": "English certificate (B2)",
                 "endDate": "Jan 20, 2026",
-                "link": "Certificate"
+                "link": "Certificate",
+                "description": "Completed English certificate (B2) at Jan 20, 2026."
             }
-        ]
+        ],
+        "subtitle": "Academic background and professional certifications."
     },
     "cases": {
         "title": "Cases",

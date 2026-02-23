@@ -6,10 +6,7 @@ export type TimelineCompany = {
   fallback?: string;
 };
 
-export const TIMELINE_COMPANIES: Record<
-  number,
-  TimelineCompany[]
-> = {
+export const TIMELINE_COMPANIES: Record<string, TimelineCompany[]> = {
   1: [
     {
       name: "English Club TV",

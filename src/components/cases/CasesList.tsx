@@ -1,8 +1,9 @@
 import { CASES_META } from "./cases.meta";
 import { CaseCard } from "./CaseCard";
+import type { Dictionary } from "@/i18n";
 
 type Props = {
-  t: any;
+  t: Dictionary;
 };
 
 export function CasesList({ t }: Props) {
@@ -14,13 +15,7 @@ export function CasesList({ t }: Props) {
         const data = items[meta.id];
         if (!data) return null;
 
-        return (
-          <CaseCard
-            key={meta.id}
-            meta={meta}
-            data={data}
-          />
-        );
+        return <CaseCard key={meta.id} meta={meta} data={data} />;
       })}
     </div>
   );

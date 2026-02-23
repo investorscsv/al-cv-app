@@ -1,33 +1,19 @@
 import Image from "next/image";
 import { LogoLinkedin } from "@gravity-ui/icons";
 import { Card, Link } from "@heroui/react";
+import type { Dictionary } from "@/i18n";
 
 type Props = {
-  t: any;
+  t: Dictionary;
 };
 
 export function IntroSection({ t }: Props) {
   return (
     <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-      {/* LEFT — Photo + Intro text */}
       <div className="lg:col-span-8 flex gap-6 items-start">
-        {/* Photo */}
         <div className="shrink-0">
-          <div
-            className="
-    inline-flex
-    rounded-full
-    shadow-[0_0_0_4px_rgba(148,163,184,0.15)]
-  "
-          >
-            <div
-              className="
-      relative
-      h-32 w-32
-      rounded-full
-      overflow-hidden
-    "
-            >
+          <div className="inline-flex rounded-full shadow-[0_0_0_4px_rgba(148,163,184,0.15)]">
+            <div className="relative h-32 w-32 rounded-full overflow-hidden">
               <Image
                 src="/images/photo.jpg"
                 alt="Anton Liakhovskii"
@@ -39,35 +25,26 @@ export function IntroSection({ t }: Props) {
               />
             </div>
           </div>
-
         </div>
 
-        {/* Text */}
         <div>
           <p className="text-sm font-medium text-gray-500 uppercase tracking-wide">
             {t.home.kicker}
           </p>
 
-          <h1 className="mt-1 text-4xl font-bold leading-tight">
-            {t.home.title}
-          </h1>
+          <h1 className="mt-1 text-4xl font-bold leading-tight">{t.home.title}</h1>
 
-          <p className="mt-3 text-lg text-gray-600 max-w-2xl">
-            {t.home.subtitle}
-          </p>
+          <p className="mt-3 text-lg text-gray-600 max-w-2xl">{t.home.subtitle}</p>
         </div>
       </div>
 
-      {/* RIGHT — LinkedIn Card */}
       <aside className="lg:col-span-4">
         <Card className="w-full">
           <Card.Header className="flex items-start gap-3">
             <LogoLinkedin className="text-primary size-6" />
             <div>
               <Card.Title>{t.home.linkedin.title}</Card.Title>
-              <Card.Description>
-                {t.home.linkedin.description}
-              </Card.Description>
+              <Card.Description>{t.home.linkedin.description}</Card.Description>
             </div>
           </Card.Header>
 

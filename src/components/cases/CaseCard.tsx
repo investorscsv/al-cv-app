@@ -4,17 +4,11 @@ import { Card, Chip, Link } from "@heroui/react";
 import { ArrowUpRight, Magnifier } from "@gravity-ui/icons";
 import type { CaseMeta } from "./cases.meta";
 
-type CaseI18n = {
-  title: string;
-  subtitle?: string;
-  intro: string;
-  highlights: string[];
-  skills: string[];
-};
+import type { CaseItem } from "@/i18n/types";
 
 type Props = {
   meta: CaseMeta;
-  data: CaseI18n;
+  data: CaseItem;
 };
 
 export function CaseCard({ meta, data }: Props) {
@@ -88,7 +82,7 @@ export function CaseCard({ meta, data }: Props) {
 
           <div className="flex flex-wrap gap-2 md:flex-col md:border-l md:pl-4">
             {data.skills.map((skill, i) => (
-              <Chip key={i} size="sm px-1">
+              <Chip key={i} size="sm" className="px-1">
                 {skill}
               </Chip>
             ))}
