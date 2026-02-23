@@ -1,20 +1,14 @@
 import { Card, Chip, Link } from "@heroui/react";
 import { ArrowUpRight } from "@gravity-ui/icons";
+import type { ProjectItem } from "@/i18n/types";
 
-export function ProjectCard({ project }: { project: Project }) {
+export function ProjectCard({ project }: { project: ProjectItem }) {
   return (
     <Card className="w-full overflow-hidden">
-      {/* Images */}
-      {project.images?.length && (
+      {!!project.images?.length && (
         <div className="flex gap-2 p-3">
           {project.images.slice(0, 3).map((image, index) => (
-            <div
-              key={index}
-              className="
-                relative h-62 flex-1 overflow-hidden rounded-xl
-                bg-gray-100
-              "
-            >
+            <div key={index} className="relative h-62 flex-1 overflow-hidden rounded-xl bg-gray-100">
               <img
                 src={image.src}
                 alt={image.alt}
@@ -27,24 +21,17 @@ export function ProjectCard({ project }: { project: Project }) {
       )}
 
       <div className="p-5 space-y-4">
-        {/* Header */}
         <div className="flex items-start justify-between gap-4">
           <div className="space-y-1">
             {project.badge && (
-              <Chip size="sm" variant="flat" className="px-2">
+              <Chip size="sm" variant="soft" className="px-2">
                 {project.badge}
               </Chip>
             )}
 
-            <h3 className="text-lg font-semibold">
-              {project.title}
-            </h3>
+            <h3 className="text-lg font-semibold">{project.title}</h3>
 
-            {project.subtitle && (
-              <p className="text-sm text-gray-500">
-                {project.subtitle}
-              </p>
-            )}
+            {project.subtitle && <p className="text-sm text-gray-500">{project.subtitle}</p>}
           </div>
 
           {project.cta && (
@@ -60,13 +47,9 @@ export function ProjectCard({ project }: { project: Project }) {
           )}
         </div>
 
-        {/* Description */}
-        <p className="text-sm text-gray-700 leading-relaxed">
-          {project.description}
-        </p>
+        <p className="text-sm text-gray-700 leading-relaxed">{project.description}</p>
 
-        {/* Highlights */}
-        {project.highlights && (
+        {!!project.highlights?.length && (
           <ul className="list-disc pl-5 space-y-1 text-sm text-gray-700">
             {project.highlights.map((item, index) => (
               <li key={index}>{item}</li>
@@ -74,11 +57,10 @@ export function ProjectCard({ project }: { project: Project }) {
           </ul>
         )}
 
-        {/* Stack */}
-        {project.stack && (
+        {!!project.stack?.length && (
           <div className="flex flex-wrap gap-2 pt-2">
             {project.stack.map((tech, index) => (
-              <Chip key={index} size="sm" variant="flat" className="px-2">
+              <Chip key={index} size="sm" variant="soft" className="px-2">
                 {tech}
               </Chip>
             ))}

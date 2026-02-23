@@ -32,7 +32,7 @@ export default function HomePage() {
         />
 
         <div className="space-y-8">
-          {career.experiences.map((exp: any) => (
+          {career.experiences.map((exp) => (
             <ExperienceCard
               key={exp.id}
               experience={exp}

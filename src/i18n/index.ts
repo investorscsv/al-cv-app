@@ -1,8 +1,12 @@
-import en from "./en.json";
-import uk from "./uk.json";
+import enJson from "./en.json";
+import ukJson from "./uk.json";
+import type { Dictionary, Locale } from "./types";
 
-export type Locale = "en" | "uk";
+const en: Dictionary = enJson;
+const uk: Dictionary = ukJson;
 
-export function getDictionary(locale: Locale) {
+export type { Dictionary, Locale } from "./types";
+
+export function getDictionary(locale: Locale): Dictionary {
   return locale === "uk" ? uk : en;
 }
