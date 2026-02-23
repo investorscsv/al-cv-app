@@ -1,0 +1,410 @@
+{
+    "nav": {
+        "home": "Home",
+        "cases": "Cases",
+        "contactMe": "Contact me"
+    },
+    "home": {
+        "kicker": "Profile",
+        "title": "Hi, I'm Anton",
+        "subtitle": "Growth marketing manager",
+        "linkedin": {
+            "title": "Let’s connect",
+            "description": "Reach out on LinkedIn for collaborations, consulting, or opportunities.",
+            "cta": "Visit my LinkedIn"
+        },
+        "nextSection": {
+            "title": "Experience & Focus",
+            "paragraphs": [
+                "Senior Product / Tech focused professional with experience in building scalable platforms, international products, and AI-driven workflows.",
+                "Strong background in startups, operations, product strategy, and engineering collaboration."
+            ]
+        },
+        "timeline": {
+            "title": "My career timeline",
+            "items": [
+                {
+                    "id": "1",
+                    "period": "2014–2016",
+                    "title": "SEO & Content Freelancer",
+                    "description": "Small freelance projects: writing and optimizing texts for SEO. First hands-on experience with digital platforms like Upwork."
+                },
+                {
+                    "id": "2",
+                    "period": "2016–2018",
+                    "title": "Technical SEO & Analytics Specialist",
+                    "description": "First long-term role. Worked with WordPress, Google Analytics, GTM, Search Console, and technical SEO implementation."
+                },
+                {
+                    "id": "3",
+                    "period": "2018–2022",
+                    "title": "Growth & Performance Marketing Manager",
+                    "description": "Growth in performance marketing and tracking. Worked with Shopify, custom templates, Meta & Google measurement, media partners."
+                },
+                {
+                    "id": "4",
+                    "period": "2023–2026",
+                    "title": "Executive Lead — Growth, Ops & Performance",
+                    "description": "Promoted to executive role at ChipChip. KPI ownership, team management, and financial and performance analysis."
+                }
+            ]
+        }
+    },
+    "career": {
+        "title": "Background",
+        "experiences": [
+            {
+                "id": "chipchip-exec",
+                "role": "Executive Lead — Growth, Ops & Performance",
+                "company": "ChipChip",
+                "location": "Hybrid · Addis Ababa, Ethiopia",
+                "period": "2023 – 2026",
+                "website": "https://chipchip.social",
+                "logo": "/logos/3.png",
+                "websiteLabel": "Website",
+                "intro": "Led performance marketing across Meta (Facebook & Instagram), Google Ads, and Telegram with geo-focused targeting on Addis Ababa.",
+                "highlights": [
+                    "Managed €73,000+ in Meta ad spend and drove 89,000+ attributed app registrations (~€0.82 per registered user).",
+                    "Generated 67,000+ first-time attributed customers via paid acquisition (~€1.08 per first-time customer).",
+                    "Helped seed the initial user base that accelerated organic growth to 130,000+ total users.",
+                    "Improved retention through funnel, offer, and creative iteration: 30-day second-purchase rate peaked at 82%, averaging ~70% over the year.",
+                    "Ran continuous A/B tests on creatives, audiences, and landing flows to scale efficiently and hit KPI targets.",
+                    "Built automated performance reporting and analytics (Python scripts + dashboards) for marketing, sales, and finance workflows.",
+                    "Owned the company website end to end (development and maintenance) using React and Node.js."
+                ],
+                "skills": [
+                    "Growth",
+                    "Performance Marketing",
+                    "Meta Ads",
+                    "Google Ads",
+                    "A/B Testing",
+                    "Analytics",
+                    "Python",
+                    "React",
+                    "Node.js"
+                ]
+            },
+            {
+                "id": "zarely-growth",
+                "role": "Performance Marketing & Growth Manager",
+                "company": "Zarely",
+                "location": "Remote · US & Canada",
+                "period": "2017 – 2022",
+                "website": "https://zarely.co",
+                "logo": "/logos/2.png",
+                "websiteLabel": "Website",
+                "intro": "Managed multi-channel paid acquisition across Meta, Google Ads, Bing, and Twitter with full-funnel tracking, ROI analysis, and budget ownership.",
+                "highlights": [
+                    "Planned and executed Black Friday Meta Ads campaigns (US, B2C e-commerce) with budgets up to €5.9K, generating €16.4K in direct revenue (ROAS 3.44), later scaling to €20.4K direct plus €21.5K attributed offline sales with total account ROAS 9.27.",
+                    "Built advanced audience structures including LTV-based lookalikes, 11 custom audiences, multi-audience testing frameworks, and KPI dashboards for real-time performance monitoring.",
+                    "Implemented offline conversion tracking using Facebook Graph API and Zapier to connect CRM and in-store sales with advertising platforms.",
+                    "Led SEO growth from ~100–200 monthly users to 3,000–4,000 targeted organic users per month within 6 months, reaching 10,000+ monthly Google users by 2020.",
+                    "Achieved consistent top-5 Google rankings in the US and Canada for high-intent keywords (e.g. ballet tights), driving long-term scalable sales growth.",
+                    "Built and optimized websites and landing pages including domains, hosting, SSL, WordPress setup, CRO, on-page SEO, semantic core, and keyword structures.",
+                    "Developed automation and data pipelines for marketing analytics, audience building, and campaign performance evaluation."
+                ],
+                "skills": [
+                    "Performance Marketing",
+                    "Meta Ads",
+                    "Google Ads",
+                    "Bing Ads",
+                    "Twitter Ads",
+                    "SEO",
+                    "CRO",
+                    "Analytics",
+                    "Automation",
+                    "Facebook Graph API",
+                    "Zapier",
+                    "WordPress"
+                ]
+            },
+            {
+                "id": "polymermedics",
+                "role": "Google Ads Specialist",
+                "company": "Polymermedics",
+                "location": "Remote · Germany",
+                "period": "2017 – 2018",
+                "website": "https://polymermedics.com/",
+                "logo": "/logos/4.png",
+                "websiteLabel": "Website",
+                "intro": "Led search-driven paid acquisition by building intent-focused keyword architectures, aligning Google Ads campaign structure with semantic cores, and optimizing landing pages to maximize conversion efficiency and ROI.",
+                "highlights": [
+                    "Built semantic cores and segmented keyword structures based on the company s core services.",
+                    "Developed advanced Google Ads campaign architectures aligned with high intent focus keywords.",
+                    "Optimized websites and landing pages to match paid search strategy and keyword intent.",
+                    "Launched and managed PPC campaigns with daily optimization, including search term analysis and negative keyword management.",
+                    "Monitored performance, tracked conversions, and continuously improved campaign results."
+                ],
+                "skills": [
+                    "Google Ads",
+                    "Landing pages"
+                ]
+            },
+            {
+                "id": "ectv",
+                "role": "SEO Specialist",
+                "company": "English Club TV",
+                "location": "On-site · Dnipro, Ukraine",
+                "period": "2016 – 2017",
+                "website": "https://english-club.tv/",
+                "logo": "/logos/5.png",
+                "websiteLabel": "Website",
+                "intro": "Supported digital growth initiatives across analytics, SEO, paid social, and mobile app optimization by combining performance tracking, keyword planning, campaign execution, and structured reporting.",
+                "highlights": [
+                    "Worked with Google Analytics to track, analyze, and optimize website performance.",
+                    "Planned keywords and supported SEO by integrating them into website and blog content.",
+                    "Managed Facebook Ads campaigns: setup, targeting, performance analysis, and conversion tracking.",
+                    "Built structured reporting templates for marketing and performance metrics.",
+                    "Adapted content to target audiences of English Club TV products.",
+                    "Managed social media marketing activities (Facebook, VKontakte).",
+                    "Conducted ASO for two mobile applications (Readdo and ECTV B2B) on both iOS and Android platforms."
+                ],
+                "skills": [
+                    "SEO",
+                    "Screaming frog",
+                    "Backlinks",
+                    "Wordpress"
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "title": "Side project",
+        "subtitle": "A self-built platform for investor discovery and deal analysis.",
+        "crino": {
+            "badge": "Side project",
+            "title": "Crino.io",
+            "subtitle": "Investor discovery & deal analysis platform",
+            "description": "A personal project where I applied my full-stack development skills in a real product.",
+            "highlights": [
+                "Built the platform end-to-end: frontend, backend, and data layer",
+                "Focused on investor discovery, deal analysis, and data-driven insights",
+                "Developed a full-stack codebase of 70,000+ lines across React frontend, Node.js backend, and supporting services.",
+                "As of February 5, 2026, the project ranked #14 on Google for the query “investor database”.",
+                "As of February 5, 2026, it supports 251 registered users with active usage, powered by an automated pipeline that refreshes deal data every two days without manual intervention."
+            ],
+            "stack": [
+                "React",
+                "Tailwind",
+                "Node.js",
+                "Python",
+                "Cursor",
+                "MongoDB",
+                "Paddle payments",
+                "Figma"
+            ],
+            "images": [
+                {
+                    "src": "/crino/1.png",
+                    "alt": "Crino banner"
+                },
+                {
+                    "src": "/crino/2.png",
+                    "alt": "Deal analytics view"
+                }
+            ],
+            "cta": {
+                "label": "Visit project",
+                "url": "https://crino.io"
+            }
+        }
+    },
+    "degree": {
+        "title": "Education & certificates",
+        "items": [
+            {
+                "id": "dnipro",
+                "institutionId": 1,
+                "course": "Bachelor of Marketing",
+                "endDate": "Sep 2007 - May - 2014",
+                "link": "Website"
+            },
+            {
+                "id": "udemy",
+                "institutionId": 2,
+                "course": "SEO course by MOZ",
+                "endDate": "Nov 20, 2017",
+                "link": "Certificate"
+            },
+            {
+                "id": "ei",
+                "institutionId": 3,
+                "course": "SEO online course",
+                "endDate": "Nov 16, 2017",
+                "link": "Certificate"
+            },
+            {
+                "id": "semrush",
+                "institutionId": 4,
+                "course": "Backlink Management",
+                "endDate": "Apr 8, 2023",
+                "link": "Certificate"
+            },
+            {
+                "id": "google",
+                "institutionId": 5,
+                "course": "Google Ads Search",
+                "endDate": "Jan 20, 2026",
+                "link": "Certificate"
+            },
+            {
+                "id": "efset",
+                "institutionId": 6,
+                "course": "English certificate (B2)",
+                "endDate": "Jan 20, 2026",
+                "link": "Certificate"
+            }
+        ]
+    },
+    "cases": {
+        "title": "Cases",
+        "content": "Selected case studies from my work in growth, operations, and automation.",
+        "items": {
+            "1": {
+                "title": "Ballet tights and actviwear",
+                "subtitle": "US-made clothes for ballet dancers",
+                "intro": "Organic Google traffic grew from 105 users in December 2017 to 6,500+ users in April 2019. By January 2021, we were already attracting more than 11,000 targeted users from Google every month.",
+                "highlights": [],
+                "skills": [
+                    "Meta Ads",
+                    "Google Ads",
+                    "SEO",
+                    "Shopify template coding"
+                ]
+            },
+            "2": {
+                "title": "Online grocery app in Ethiopia",
+                "subtitle": "Target audience: People living in Addis Ababa, Ethiopia.",
+                "intro": "Design and launch of a B2B platform for restaurants and hotels.",
+                "highlights": [
+                    "These screenshots show the performance of all remarketing-stage ad sets during the selected period.",
+                    "Those remarketing campaigns generated:",
+                    "1.34M reach;",
+                    "189,031 purchases recorded;",
+                    "33,593 1-st time customers who placed their first order;",
+                    "Average CPM: €0.97;",
+                    "Built pricing & margin control logic",
+                    "Integrated Telegram-based ordering"
+                ],
+                "skills": [
+                    "Meta Ads",
+                    "Remarketing funnel"
+                ]
+            },
+            "3": {
+                "title": "Online grocery app in Ethiopia",
+                "subtitle": "Target audience: People living in Addis Ababa, Ethiopia.",
+                "intro": "Remarketing performance case focused on driving verified registrations, first-time purchases, and efficient customer acquisition.",
+                "highlights": [
+                    "Screenshots show performance of remarketing-stage campaigns in Meta Ads Manager.",
+                    "Tracked custom funnel events: user registration after SMS verification and first-time purchase.",
+                    "€47,252 total ad spend during the selected period (Jan–Dec 2025).",
+                    "37,977 verified user registrations generated.",
+                    "28,239 first-time purchasers recorded.",
+                    "Average cost per first-time purchaser (CAC): €1.67.",
+                    "170M+ ad impressions delivered across remarketing campaigns."
+                ],
+                "skills": [
+                    "Meta Ads"
+                ]
+            },
+            "4": {
+                "title": "Automated KPI reporting system",
+                "subtitle": "Weekly executive KPI presentation automation",
+                "intro": "Design and implementation of an automated KPI reporting system that generates executive-ready presentation slides from a centralized dataset.",
+                "highlights": [
+                    "Built a Python-based automation system consisting of more than 25 scripts.",
+                    "Used a single source of truth containing all orders and related performance metrics.",
+                    "Automated data processing, aggregation, and KPI calculations across the full order lifecycle.",
+                    "Generated ready-to-use presentation slides for weekly executive KPI meetings.",
+                    "Eliminated manual slide preparation and reduced reporting time and human error.",
+                    "Ensured consistent, repeatable, and data-driven KPI reporting for leadership reviews."
+                ],
+                "skills": [
+                    "Python",
+                    "Data Processing",
+                    "KPI Reporting",
+                    "Automation",
+                    "Executive Reporting"
+                ]
+            },
+            "5": {
+                "title": "Meta Ads customer acquisition at scale",
+                "subtitle": "Performance-driven paid acquisition for e-commerce marketplace",
+                "intro": "Planning, launching, and optimizing hundreds of Meta Ads campaigns for ChipChip, focused on scalable customer acquisition through systematic testing of creatives, audiences, and messaging angles.",
+                "highlights": [
+                    "Launched and managed hundreds of Meta Ads campaigns across multiple growth phases.",
+                    "Tested and optimized diverse creative formats including static, video, and offer-led ads.",
+                    "Segmented and scaled multiple audience types (broad, interest-based, lookalikes, retargeting).",
+                    "Experimented with different messaging angles such as price, convenience, freshness, and group-buying value.",
+                    "Continuously analyzed performance metrics (CPA, CTR, conversion rate) to guide budget allocation.",
+                    "Scaled winning combinations while systematically killing underperforming creatives and audiences.",
+                    "Contributed directly to sustained customer acquisition growth and improved marketing efficiency."
+                ],
+                "skills": [
+                    "Meta Ads",
+                    "Performance Marketing",
+                    "Customer Acquisition",
+                    "Creative Testing",
+                    "Audience Segmentation",
+                    "Growth Optimization"
+                ]
+            },
+            "6": {
+                "title": "Custom Google Ads ROAS tracking with Shopify",
+                "subtitle": "Accurate first-time customer attribution and revenue measurement",
+                "intro": "Designed and implemented a custom conversion tracking and reporting setup for Google Ads using Shopify as the single source of truth, ensuring accurate first-time customer attribution and clean ROAS calculation without GA4 duplication.",
+                "highlights": [
+                    "Implemented custom Shopify-integrated conversion tracking for first-time customer attribution.",
+                    "Eliminated data duplication issues caused by standard GA4 conversion events.",
+                    "Created custom Google Ads columns to calculate ROAS directly from Shopify sales value and ad spend.",
+                    "Built a dedicated Google Ads dashboard focused exclusively on Shopify-based conversions.",
+                    "Ensured clean, consistent revenue attribution across all campaigns.",
+                    "Enabled reliable performance analysis for both branding and performance campaigns.",
+                    "Achieved an average ROAS of 3.40 across all campaigns for the full year of 2019."
+                ],
+                "skills": [
+                    "Google Ads",
+                    "Shopify",
+                    "Conversion Tracking",
+                    "ROAS Optimization",
+                    "Attribution Modeling",
+                    "Performance Analytics"
+                ]
+            },
+            "7": {
+                "title": "Automated PDF Transaction Audit System",
+                "subtitle": "OCR-based extraction and consolidation of financial transaction data",
+                "intro": "Designed and implemented an automated system to process transaction PDF documents using OCR technology, transforming unstructured files into a clean, auditable dataset suitable for financial and investor audits.",
+                "highlights": [
+                    "Built an OCR-based pipeline to extract structured data from transaction PDF documents.",
+                    "Standardized data from multiple non-uniform document layouts.",
+                    "Consolidated all company transactions into a single CSV dataset.",
+                    "Enabled fast reconciliation and verification of historical transactions.",
+                    "Improved audit readiness for external investors and financial reviewers.",
+                    "Reduced manual data entry and human error in transaction analysis.",
+                    "Delivered a scalable and reproducible data extraction workflow."
+                ],
+                "skills": [
+                    "OCR",
+                    "Python",
+                    "PDF Data Extraction",
+                    "Data Cleaning",
+                    "Financial Auditing",
+                    "Data Consolidation",
+                    "Automation"
+                ]
+            }
+        }
+    },
+    "contact": {
+        "kicker": "Contact",
+        "title": "Let’s get in touch",
+        "subtitle": "If you’d like to discuss a project, collaboration, or just have a question, feel free to reach out. I’m always open to meaningful conversations.",
+        "linkedin": {
+            "title": "LinkedIn",
+            "description": "The easiest way to learn more about my professional background and connect with me.",
+            "cta": "View LinkedIn profile"
+        }
+    }
+}
