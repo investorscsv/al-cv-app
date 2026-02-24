@@ -9,6 +9,16 @@
         "title": "Hi, I'm Anton",
         "subtitle": "Growth Engineer",
         "description": "Marketing, data and product engineering combined.",
+        "specialties": {
+            "title": "Specialties",
+            "items": [
+                "Growth systems",
+                "Marketing automation",
+                "Data pipelines",
+                "AI workflows",
+                "Product experiments"
+            ]
+        },
         "linkedin": {
             "title": "Let’s connect",
             "description": "Reach out on LinkedIn for collaborations, consulting, or opportunities.",

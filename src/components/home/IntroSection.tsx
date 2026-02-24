@@ -35,6 +35,24 @@ export function IntroSection({ t }: Props) {
           <h1 className="mt-1 text-4xl font-bold leading-tight">{t.home.title}</h1>
 
           <p className="mt-3 text-lg text-gray-600 max-w-2xl">{t.home.subtitle}</p>
+
+          <p className="mt-2 text-base text-gray-600 max-w-2xl">{t.home.description}</p>
+
+          <div className="mt-4">
+            <p className="text-sm font-semibold text-gray-700 uppercase tracking-wide">
+              {t.home.specialties.title}
+            </p>
+            <ul className="mt-3 flex flex-wrap gap-2">
+              {t.home.specialties.items.map((specialty) => (
+                <li
+                  key={specialty}
+                  className="rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-sm text-gray-700"
+                >
+                  {specialty}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
 

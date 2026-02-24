@@ -49,6 +49,16 @@
                     "description": "Підвищення до executive-ролі в ChipChip. Відповідальність за KPI, управління командами, фінансовий та performance-аналіз."
                 }
             ]
+        },
+        "specialties": {
+            "title": "Спеціалізації",
+            "items": [
+                "Growth-системи",
+                "Маркетингова автоматизація",
+                "Data pipelines",
+                "AI workflows",
+                "Продуктові експерименти"
+            ]
         }
     },
     "career": {

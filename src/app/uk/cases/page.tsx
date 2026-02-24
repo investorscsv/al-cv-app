@@ -5,7 +5,7 @@ export default function CasesPageEN() {
   const t = getDictionary("uk");
 
   return (
-    <main className="p-8 space-y-6">
+    <main className="space-y-6">
       <header>
         <h1 className="text-3xl font-bold">
           {t.cases.title}

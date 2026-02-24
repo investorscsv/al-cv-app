@@ -17,6 +17,11 @@ export type HomeDictionary = {
   kicker: string;
   title: string;
   subtitle: string;
+  description: string;
+  specialties: {
+    title: string;
+    items: string[];
+  };
   linkedin: {
     title: string;
     description: string;
