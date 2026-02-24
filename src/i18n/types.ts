@@ -18,6 +18,11 @@ export type HomeDictionary = {
   title: string;
   subtitle: string;
   description: string;
+  mvp: {
+    title: string;
+    description: string;
+    items: string[];
+  };
   specialties: {
     title: string;
     items: string[];

@@ -10,7 +10,7 @@ type Props = {
 export function IntroSection({ t }: Props) {
   return (
     <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-      <div className="lg:col-span-8 flex gap-6 items-start">
+      <div className="lg:col-span-8 flex flex-col sm:flex-row gap-6 items-center sm:items-start">
         <div className="shrink-0">
           <div className="inline-flex rounded-full shadow-[0_0_0_4px_rgba(148,163,184,0.15)]">
             <div className="relative h-32 w-32 rounded-full overflow-hidden">
@@ -27,7 +27,7 @@ export function IntroSection({ t }: Props) {
           </div>
         </div>
 
-        <div>
+        <div className="w-full">
           <p className="text-sm font-medium text-gray-500 uppercase tracking-wide">
             {t.home.kicker}
           </p>
@@ -38,15 +38,27 @@ export function IntroSection({ t }: Props) {
 
           <p className="mt-2 text-base text-gray-600 max-w-2xl">{t.home.description}</p>
 
+          <div className="mt-5 rounded-2xl border border-gray-200 bg-gray-50 p-4 sm:p-5">
+            <p className="text-sm font-semibold text-gray-700 uppercase tracking-wide">{t.home.mvp.title}</p>
+            <p className="mt-2 text-sm text-gray-600">{t.home.mvp.description}</p>
+            <ul className="mt-3 space-y-2">
+              {t.home.mvp.items.map((item) => (
+                <li key={item} className="text-sm text-gray-700 leading-relaxed">
+                  • {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
           <div className="mt-4">
             <p className="text-sm font-semibold text-gray-700 uppercase tracking-wide">
               {t.home.specialties.title}
             </p>
-            <ul className="mt-3 flex flex-wrap gap-2">
+            <ul className="mt-3 grid grid-cols-2 gap-2 sm:flex sm:flex-wrap">
               {t.home.specialties.items.map((specialty) => (
                 <li
                   key={specialty}
-                  className="rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-sm text-gray-700"
+                  className="rounded-full border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-700 text-center"
                 >
                   {specialty}
                 </li>
