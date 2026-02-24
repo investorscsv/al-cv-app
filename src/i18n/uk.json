@@ -7,7 +7,8 @@
     "home": {
         "kicker": "Профіль",
         "title": "Привіт, я Антон",
-        "subtitle": "Менеджер з growth-маркетингу",
+        "subtitle": "Growth Engineer",
+        "description": "Поєдную маркетинг, дані та продуктову інженерію.",
         "linkedin": {
             "title": "Будьмо на зв’язку",
             "description": "Напишіть у LinkedIn для співпраці, консалтингу або нових можливостей.",
