@@ -9,6 +9,16 @@
         "title": "Hi, I'm Anton",
         "subtitle": "Growth Engineer",
         "description": "Marketing, data and product engineering combined.",
+        "mvp": {
+            "title": "From prototype to launch",
+            "description": "I can build and launch an MVP end-to-end, then immediately connect growth and promotion workflows.",
+            "items": [
+                "Python, Node.js & React development",
+                "Project setup and workflow in GitHub",
+                "Deployment and server setup",
+                "Analytics, automation and growth rollout"
+            ]
+        },
         "specialties": {
             "title": "Specialties",
             "items": [
