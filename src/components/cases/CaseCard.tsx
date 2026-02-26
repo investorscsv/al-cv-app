@@ -82,7 +82,7 @@ export function CaseCard({ meta, data }: Props) {
 
           <div className="flex flex-wrap gap-2 md:flex-col md:border-l md:pl-4">
             {data.skills.map((skill, i) => (
-              <Chip key={i} size="sm" className="px-1">
+              <Chip key={i} size="sm" className="px-3 py-1.5">
                 {skill}
               </Chip>
             ))}

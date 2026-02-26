@@ -63,5 +63,13 @@ export const CASES_META: CaseMeta[] = [
     images: [
       
     ],
+  },
+  {
+    id: "8",
+    slug: "reconciliation-app-ethiopia-6",
+    cover: "/cases/8.png",
+    images: [
+      
+    ],
   }
 ];

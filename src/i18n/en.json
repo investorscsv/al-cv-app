@@ -423,6 +423,28 @@
                     "Data Consolidation",
                     "Automation"
                 ]
+            },
+            "8": {
+                "title": "Financial reconciliation system for internal CRM (ChipChip)",
+                "subtitle": "Automated matching of expenses with bank transactions",
+                "intro": "Designed and implemented a reconciliation interface inside the Finance/Banking module of ChipChip’s internal CRM. The system helps finance teams quickly match paid expenses with bank transactions using smart suggestions, clear comparisons, and a structured review workflow.",
+                "highlights": [
+                    "Built a reconciliation interface that displays paid expenses alongside suggested bank transaction matches.",
+                    "Implemented smart matching logic based on payment date proximity, amount tolerance, and ranking score.",
+                    "Created a structured UI where expense totals and bank transaction amounts are aligned for instant visual comparison.",
+                    "Developed a candidate ranking system to surface the most likely bank matches first.",
+                    "Added pagination and table optimization to handle large volumes of financial records efficiently.",
+                    "Improved finance team workflow by reducing manual reconciliation time.",
+                    "Designed the layout for clarity and quick decision-making inside the Finance/Banking module."
+                ],
+                "skills": [
+                    "React",
+                    "TypeScript",
+                    "Supabase / Supabase Edge Functions",
+                    "PostgreSQL",
+                    "Reconciliation Algorithms",
+                    "Product Design"
+                ]
             }
         }
     },
